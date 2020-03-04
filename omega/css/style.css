@@ -87,7 +87,7 @@ figcaption {
 }
 
 #voltar a {
-    background-color: yellow;
+    background-color: rgba(137, 162, 231, 0.781);
     padding: 5px;
     border: solid 1px;
     box-shadow: black 0 0 5px;
