@@ -1,0 +1,336 @@
+ *, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+html{
+    font-size: 18px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body { 
+    margin:0; 
+    padding:0; 
+}
+
+@media screen and (max-width: 767px){
+
+    header{
+        background-color: rgb(67, 67, 67);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header h1, p {
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    header h1 {
+        width: 80%;
+        margin: auto;
+        padding: 5px 0px 5px 0;
+    }
+
+    header p {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+
+    header div img{
+        width: 100%;
+    }
+
+    .f-art h3,p{
+        color:white;
+        text-align: center;
+    }
+
+    .f-art h3{
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    .f-art img{
+        width: 100%;
+        border: solid 10px rgb(112, 112, 112);
+    }
+
+    .f-art section{
+        padding: 15px;
+    }
+
+    .f-art div {
+        background-color: rgb(67, 67, 67);
+    }
+
+    .img-circular{
+        border: solid 15px rgb(49, 49, 49);
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    .s-art div {
+        background-color:rgb(112, 112, 112);
+        padding: 20px;
+    }
+
+    .s-art h2,p{
+        color: white;
+        text-align: center;
+    }
+
+    .s-art h2{
+        font-size: 2rem;
+        padding: 0;
+        margin: 15px;
+    }
+
+    .s-art p{
+        padding: 0px 10px 20px 10px ;
+    }
+
+    footer{
+        text-align: center;
+        background-color: rgb(67, 67, 67);
+        padding: 15px;
+        font-size: 1.3rem;
+    } 
+
+    footer h3{
+        color: white;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    header{
+        background-image: url(../img/1500x700.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%; 
+        height: 600px;
+    }
+    
+    header h1{
+        color: rgb(77,97,40);
+        text-align: center;
+        padding-top: 20px;
+        font-size: 2.5rem;
+        margin:0; 
+        padding-top:15px;
+    }
+    
+    header p{
+        text-align: center;
+        padding: 0;
+        margin:2px;
+        font-size: 1.2rem;
+        color: rgb(33,53,0);
+        font-weight: bold;
+    }
+
+    header div img{
+        display: none;
+    }
+    
+    .f-art{
+        height: 350px;
+        background-color: rgb(67, 67, 67)
+    }
+    
+    .f-art section{
+        margin: 50px 70px 70px 70px;
+    }
+
+    .f-art h3{
+    font-size: 0.7rem;
+    padding: 10px 0 5px 0;
+    }
+
+    .f-art p{
+    font-size: 0.55rem;
+    }
+    
+    .f-art p, h3{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    }
+    
+    .f-art div{
+    display: flex;
+    justify-content: space-between;
+    } 
+
+    .f-art div img {
+    width: 100%;
+    border: solid 8px rgb(112, 112, 112);
+    }
+
+    .img-circular{
+    border-radius: 50%;
+    border: solid 15px rgb(49, 49, 49);
+    margin: 0 0 30px 30px;
+    width: 400px;
+    height: 400px;
+    }
+    
+    .s-art{
+    background-color:  rgb(112, 112, 112);
+    }
+    
+    .s-art div{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .s-art section{
+    margin: 40px 40px 0 0;
+    }
+
+    .s-art h2{
+    font-size: 1rem;
+    margin-top: 25px;
+    }
+
+    .s-art p{
+    font-size: 0.62rem;
+    }
+    
+    .s-art p, h2{
+    color: white;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .s-art p{
+    margin-bottom: 10px;
+    }
+    
+    .s-art h2{
+    margin-bottom: 10px;
+    }
+
+    footer{
+    text-align: center;
+    background-color: rgb(67, 67, 67);
+    padding: 15px;
+    font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (min-width: 900px){
+
+    .f-art h3{
+    font-size: 0.8rem;
+    }
+
+    .f-art p{
+    font-size: 0.6rem;
+    }
+
+    .s-art h2{
+    font-size: 1.1rem;
+    }
+
+    .s-art p{
+    font-size: 0.75rem;
+    }
+    
+    footer{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .f-art h3{
+    font-size: 1rem;
+    }
+
+    .f-art p{
+    font-size: 0.65rem;
+    }
+
+    .s-art h2{
+    font-size: 1.2rem;
+    }
+
+    .s-art p{
+    font-size: 0.80rem;
+    }  
+    
+    footer{
+    font-size: 1rem;
+    }
+}
+
+ @media screen and (min-width: 1200px){
+
+    header{
+    height: 700px;
+    }
+    
+    .f-art{
+    height: 500px;
+    background-color: rgb(67, 67, 67)
+    }
+    
+    .f-art h3{
+    font-size: 1.3rem;
+    }
+    
+    .f-art p{
+    font-size: 1rem;
+    }
+    
+    .f-art div img {
+    border: solid 15px rgb(112, 112, 112);
+    }
+    
+    .img-circular{
+    margin: 0 40px 40px 60px;
+    }
+    
+    .s-art h2{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    }
+    
+    .s-art p{
+    font-size: 0.92rem;
+    margin-bottom: 10px;
+    }
+    
+    footer{
+    font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (min-width: 1201px){
+
+    .f-art{
+        height: 520px;
+    }
+
+    .s-art h2{
+   font-size: 1.8rem;
+   margin-bottom: 20px;
+   }
+   
+   .s-art p{
+   font-size: 1rem;
+   margin-bottom: 20px;
+   }
+
+}
